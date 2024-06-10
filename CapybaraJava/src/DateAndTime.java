@@ -58,7 +58,8 @@ public class DateAndTime {
             String minute = minuteField.getText();
 
             // Combine year, month, and day into a single date string
-            String date = year + "-" + month + "-" + day;
+
+            String date = day + "-" + month + "-" + year;
 
             // Combine hour and minute into a single time string
             String time = hour + ":" + minute;
